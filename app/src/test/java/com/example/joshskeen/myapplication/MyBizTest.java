@@ -31,7 +31,7 @@ public class MyBizTest extends  TestCase{
 
     @Test
     public void testDoubleInteger() {
-        assertEquals(2, myBiz.doubleInteger());
+        assertEquals(5, myBiz.doubleInteger());
     }
 
     @Test
