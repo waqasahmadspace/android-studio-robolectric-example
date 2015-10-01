@@ -14,9 +14,9 @@ public class BizLogic {
 
     public int integer = 1;
 
-    public int doubleInteger() {
-        return integer * 2;
-    }
+    public int doubleInteger() {    return integer * 2; }
+
+    public String justaString(){    return "foo";   }
 
     public String matchDate(String string) {
         Pattern pattern = Pattern.compile("\\b(\\d{2}-\\d{2}-\\d{4})");

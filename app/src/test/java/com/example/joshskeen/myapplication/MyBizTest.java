@@ -25,7 +25,6 @@ public class MyBizTest extends  TestCase{
 
     @Test
     public void testInteger() {
-        // assertTrue(false);
         assertEquals(1, myBiz.integer);
     }
 
@@ -34,6 +33,9 @@ public class MyBizTest extends  TestCase{
         assertEquals(2, myBiz.doubleInteger());
     }
 
+    public void testJustaString(){
+        assertEquals("not foo" , myBiz.justaString());
+    }
     @Test
     public void testMatchDate() {
         assertEquals("19-04-2015", myBiz.matchDate("The date is 19-04-2015 and the time is 10:14 PM"));
