@@ -34,11 +34,11 @@ public class MyBizTest extends  TestCase{
     }
 
     public void testJustaString(){
-        assertEquals("not foo" , myBiz.justaString());
+        assertEquals("gg foo" , myBiz.justaString());
     }
     @Test
     public void testMatchDate() {
-        assertEquals("19-04-2015", myBiz.matchDate("The date is 19-04-2015 and the time is 10:14 PM"));
+        assertEquals("19-05-2015", myBiz.matchDate("The date is 19-04-2015 and the time is 10:14 PM"));
     }
 
 
